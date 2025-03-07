@@ -10,9 +10,9 @@ public class Main {
 
 
         //Creating objects from payment methods
-        BitcoinPayment bitcoinPayment = new BitcoinPayment("1A3gG7X9pVbK2mQ5YzNd6FJ8LC4TWoXHPq\n");
-        CreditCardPayment creditCardPayment = new CreditCardPayment("4539 1488 0343 6467", "Helia");
-        PayPalPayment payPalPayment = new PayPalPayment("rozhin.jbk85@gmail.com");
+        PaymentStrategy bitcoinPayment = new BitcoinPayment("1A3gG7X9pVbK2mQ5YzNd6FJ8LC4TWoXHPq\n");
+        PaymentStrategy creditCardPayment = new CreditCardPayment("4539 1488 0343 6467", "Helia");
+        PaymentStrategy payPalPayment = new PayPalPayment("rozhin.jbk85@gmail.com");
 
 
         //Displaying customers info
