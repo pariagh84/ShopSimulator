@@ -17,6 +17,6 @@ public class BitcoinPayment implements PaymentStrategy {
     @Override
     public String getPaymentDetails() {
 
-        return "Bitcoin Payment Service.\nWallet Address : " + this.walletAddress;
+        return "\nBitcoin Payment Service.\nWallet Address : " + this.walletAddress;
     }
 }

@@ -13,6 +13,7 @@ public class RegularCustomer extends Customer {
 
         System.out.println("Name: " + name);
         System.out.println("Customer status: Regular customer");
+        System.out.println();
 
     }
 }

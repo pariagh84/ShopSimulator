@@ -12,6 +12,7 @@ public class PremiumCustomer extends Customer {
 
         System.out.println("Name: " + name);
         System.out.println("Customer status: Premium customer");
+        System.out.println();
 
     }
 }

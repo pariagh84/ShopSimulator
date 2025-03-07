@@ -18,7 +18,7 @@ public class PayPalPayment implements PaymentStrategy {
     @Override
     public String getPaymentDetails() {
 
-        return "PayPal Payment Service.\nEmail : " + this.email;
+        return "\nPayPal Payment Service.\nEmail : " + this.email;
     }
 
 }
